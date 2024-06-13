@@ -40,6 +40,11 @@ paths:
       description: Retrieve the information of the user with the matching user ID.
       x-stoplight:
         id: edjz5p5g0iu2o
+      parameters:
+        - schema:
+            type: string
+          in: query
+          name: test-name
     patch:
       summary: Update User Information
       operationId: patch-users-userId

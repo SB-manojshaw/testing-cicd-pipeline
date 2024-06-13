@@ -10,7 +10,23 @@
     "oas3.1"
   ],
   "aliases": {},
-  "rules": {},
+  "rules": {
+    "local-rule": {
+      "id": "kufJklhM0SHqwRxVaSif0",
+      "given": [
+        "#Request_Parameter_Query"
+      ],
+      "severity": "error",
+      "then": {
+        "function": "casing",
+        "functionOptions": {
+          "type": "camel"
+        },
+        "field": "name"
+      },
+      "name": "local-rule"
+    }
+  },
   "inheritedOverrides": {
     "info-description": {
       "severity": "off"

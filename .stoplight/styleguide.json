@@ -13,12 +13,15 @@
   "rules": {},
   "inheritedOverrides": {
     "info-description": {
-      "severity": "warn"
+      "severity": "off"
     },
     "operation-singular-tag": {
       "severity": "error"
     },
     "info-contact": {
+      "severity": "off"
+    },
+    "info-license": {
       "severity": "off"
     }
   },

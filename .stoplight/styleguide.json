@@ -16,7 +16,7 @@
       "given": [
         "#Request_Parameter_Query"
       ],
-      "severity": "off",
+      "severity": "error",
       "then": {
         "function": "casing",
         "functionOptions": {
@@ -29,7 +29,10 @@
   },
   "inheritedOverrides": {
     "info-description": {
-      "severity": "off"
+      "severity": "error"
+    },
+    "operation-singular-tag": {
+      "severity": "error"
     }
   },
   "extendedDefault": false

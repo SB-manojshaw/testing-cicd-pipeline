@@ -23,6 +23,12 @@
     },
     "info-license": {
       "severity": "off"
+    },
+    "duplicated-entry-in-enum": {
+      "severity": "off"
+    },
+    "parameter-description": {
+      "severity": "off"
     }
   },
   "extendedDefault": false

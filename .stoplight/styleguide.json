@@ -16,7 +16,7 @@
       "given": [
         "#Request_Parameter_Query"
       ],
-      "severity": "off",
+      "severity": "error",
       "then": {
         "function": "casing",
         "functionOptions": {
@@ -25,6 +25,18 @@
         "field": "name"
       },
       "name": "local-rule"
+    },
+    "myrule": {
+      "id": "rXHOeT2k874kyi_mx8O69",
+      "given": [
+        "#Request_Parameter_Query"
+      ],
+      "severity": "error",
+      "then": {
+        "function": "casing"
+      },
+      "name": "myrule",
+      "message": "this is testing local rule"
     }
   },
   "inheritedOverrides": {

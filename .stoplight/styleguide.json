@@ -29,6 +29,12 @@
     },
     "parameter-description": {
       "severity": "off"
+    },
+    "operation-tags": {
+      "severity": "off"
+    },
+    "api-servers": {
+      "severity": "off"
     }
   },
   "extendedDefault": false

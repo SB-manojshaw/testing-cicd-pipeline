@@ -10,35 +10,7 @@
     "oas3.1"
   ],
   "aliases": {},
-  "rules": {
-    "local-rule": {
-      "id": "kufJklhM0SHqwRxVaSif0",
-      "given": [
-        "#Request_Parameter_Query"
-      ],
-      "severity": "error",
-      "then": {
-        "function": "casing",
-        "functionOptions": {
-          "type": "camel"
-        },
-        "field": "name"
-      },
-      "name": "local-rule"
-    },
-    "myrule": {
-      "id": "rXHOeT2k874kyi_mx8O69",
-      "given": [
-        "#Request_Parameter_Query"
-      ],
-      "severity": "error",
-      "then": {
-        "function": "casing"
-      },
-      "name": "myrule",
-      "message": "this is testing local rule"
-    }
-  },
+  "rules": {},
   "inheritedOverrides": {
     "info-description": {
       "severity": "off"

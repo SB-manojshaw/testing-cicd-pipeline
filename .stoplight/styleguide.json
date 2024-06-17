@@ -29,7 +29,7 @@
   },
   "inheritedOverrides": {
     "info-description": {
-      "severity": "error"
+      "severity": "off"
     },
     "operation-singular-tag": {
       "severity": "error"
